@@ -4,16 +4,17 @@
   "description": "Lightweight and simple events for any object.",
   "main": "index.js",
   "scripts": {
-    "clean": "find . -name *.js -exec echo {} \\;",
+    "clean": "del index.d*; del index.j*;",
     "compile": "tsc -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": false,
   "files": [
     "index.ts",
     "index.d.ts",
     "index.d.ts.map",
     "index.js",
-    "index.js.map",
+    "index.js.map"
   ],
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   },
   "homepage": "https://github.com/GoGrillion/on-off#readme",
   "devDependencies": {
+    "del-cli": "^1.1.0",
     "typescript": "^3.0.3"
   }
 }
