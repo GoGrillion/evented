@@ -1,0 +1,35 @@
+{
+  "name": "@gogrillion/on-off",
+  "version": "1.0.0",
+  "description": "Lightweight and simple events for any object.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "find . -name *.js -exec echo {} \\;",
+    "compile": "tsc -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.ts",
+    "index.d.ts",
+    "index.d.ts.map",
+    "index.js",
+    "index.js.map",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoGrillion/on-off.git"
+  },
+  "keywords": [
+    "events",
+    "small"
+  ],
+  "author": "Mike Grill <mike@gogrillion.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoGrillion/on-off/issues"
+  },
+  "homepage": "https://github.com/GoGrillion/on-off#readme",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  }
+}
